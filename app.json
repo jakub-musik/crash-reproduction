@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Crash",
+    "slug": "crash-reproduction",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crash.reproduction"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.crash.reproduction"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo-vertical2x.png",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./assets/images/logo-vertical-dark2x.png",
+            "backgroundColor": "#221f29"
+          }
+        }
+      ],
+      "./android-manifest-plugin.js",
+      "./strings-resource-plugin.js",
+      "./android-debug-manifest-plugin.js"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
