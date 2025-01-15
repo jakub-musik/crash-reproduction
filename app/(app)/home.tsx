@@ -11,7 +11,7 @@ const HomeScreen = () => {
 
   return (
     <View>
-      <View className="flex-row justify-between p-m">
+      <View>
         <Button title="logout" onPress={() => void onLogout()} />
       </View>
     </View>
