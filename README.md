@@ -1,6 +1,8 @@
 Cut down capsule crash example.
 
 ### Install and run:
+- Create a .env or .env.local file from .env.example and fill in the api key.
+- Then run:
 ```
 yarn && yarn android:dev
 ```
