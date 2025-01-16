@@ -1,6 +1,6 @@
 {
   "name": "crash-reproduction",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "version": "1.0.0",
   "scripts": {
     "android:prebuild": "expo prebuild --platform android",
